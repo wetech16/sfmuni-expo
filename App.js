@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 import Map from "./screens/GoogleMap";
 import xml2js from "react-native-xml2js";
 
-const allRoutes = ["8", "8AX", "9"];
+const allRoutes = ["8", "8AX", "9", "9R"];
 
 export default function App() {
   const [eventData, setEventData] = useState([]);
